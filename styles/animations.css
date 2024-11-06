@@ -12,3 +12,91 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+@keyframes arrow {
+    from {
+      left: -20px;
+    }
+    to {
+      left: -24px;
+    }
+  } 
+
+  .card__icon-button .core {
+    fill: transparent;
+    transition: fill 0.3s 0.03s linear;
+  }
+  
+  .card__icon-button:hover .core {
+    fill: var(--like__core-color);
+    transition: fill 0.3s linear;
+  }
+  
+  .card__icon-button .main-body {
+    fill: transparent;
+    transition: fill 0.3s linear;
+  }
+  
+  .card__icon-button:hover .main-body {
+    fill: var(--like__main-body-color);
+    transition: fill 0.3s 0.05s linear;
+  }
+  
+  .card__icon-button:active .core {
+    fill: var(--like__main-color);
+    transition: fill 0.3s linear;
+  }
+  
+  .card__icon-button:active .main-body {
+    fill: var(--like__main-color);
+    transition: fill 0.3s 0.05s linear;
+  }
+  
+  .like-icon.is-liked .core {
+    fill: var(--like__main-color);
+    transition: fill 0.3s linear;
+  }
+  
+  .like-icon.is-liked .main-body {
+    fill: var(--like__main-color);
+    transition: fill 0.3s 0.05s linear;
+  }
+  
+  .like-icon.is-liked .contour {
+    fill: var(--like__main-color);
+    transition: fill 0.3s 0.06s linear;
+  }
+  
+  .like-icon.is-liked .heart {
+    animation: scaleheart 0.3s 0.1s ease-in 2 alternate;
+    transform-origin: center;
+  }
+  
+  .like-icon.is-liked .sparks {
+    animation: opacitysparks 0.3s 0.3s ease-in 2 alternate;
+  }
+  
+  .like-icon .contour {
+    fill: var(--like__contour-color);
+    transition: fill 0.1s linear;
+  }
+
+  @keyframes scaleheart {
+    from {
+      scale: 1;
+    }
+  
+    to {
+      scale: 1.5;
+    }
+  }
+
+  @keyframes opacitysparks {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }

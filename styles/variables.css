@@ -1,1 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main__font-family: 'Inter', sans-serif;
+    --accent__font-family: 'Press Start 2P', sans-serif;
+    --main__font-weight: 400;
+    --title__font-weight: 700;
+    --background-color: rgba(255, 255, 255, 1);
+    --text-color: rgba(0, 0, 0, 1);
+     --gradient: repeating-linear-gradient(90deg, #d3d3d3 0px 2px, transparent 2px 4px),
+  repeating-linear-gradient(#d3d3d3 0px 2px, transparent 2px 4px),
+  linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+    --border: 2px solid #000000;
+    --text-stroke: rgba(255, 255, 255, 0.6);
+    --shadow-color: rgba(0, 0, 0, 1);
+    --button-color: rgba(255, 255, 255, 1);
+    --like__contour-color: rgba(0, 0, 0, 1);
+    --like__filling-color: rgba(255, 0, 0, 1);
+    --like__main-body-color: rgba(0, 0, 0, 1);
+    --like__core-color: rgba(0, 0, 0, 1);
+    --like__main-color: rgba(255, 0, 0, 1);
+}
