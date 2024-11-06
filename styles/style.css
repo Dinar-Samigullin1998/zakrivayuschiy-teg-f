@@ -25,7 +25,7 @@
   margin-block-start: 100px;
   max-inline-size: clamp(375px, 100%, 700px);
   inline-size: 100%;
-  font-variation-settings: var(--main__font-weight);
+  font-variation-settings: 'wght' var(--main__font-weight);
 }
 
 .header {
