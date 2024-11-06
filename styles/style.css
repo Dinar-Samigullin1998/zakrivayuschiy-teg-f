@@ -25,7 +25,7 @@
   margin-block-start: 100px;
   max-inline-size: clamp(375px, 100%, 700px);
   inline-size: 100%;
-  font-variation-settings: 'main__font-weight' var(--main__font-weight);
+  font-variation-settings: 'wght' var(--main__font-weight);
 }
 
 .header {
@@ -39,7 +39,7 @@
   background-color: var(--background-color);
   border: var(--border);
   margin-block-end: 100px;
-  font-variation-settings: 'main__font-weight' var(--main__font-weight);
+  font-variation-settings: 'wght' var(--main__font-weight);
 }
 
 .header__title {
@@ -138,7 +138,7 @@
   font-weight: var(--title__font-weight);
   padding: 3px 10px;
   line-height: 1.4em;
-  font-variation-settings: 'title__font-weight' var(--title__font-weight);
+  font-variation-settings: 'wght' var(--title__font-weight);
 }
 
 @media (width <= 375px) {
@@ -245,7 +245,7 @@
   font-weight: var(--main__font-weight);
   font-size: 18px;
   line-height: 1.17em;
-  font-variation-settings: 'main__font-weight' var(--main__font-weight);
+  font-variation-settings: 'wght' var(--main__font-weight);
 }
 
 .card__like-button {
