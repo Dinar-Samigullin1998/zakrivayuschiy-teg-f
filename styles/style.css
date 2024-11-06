@@ -14,6 +14,12 @@
 
 */
 
+@supports (font-variation-settings: normal) {
+  body {
+      font-family: 'Inter', sans-serif;
+  }
+} 
+
 .page {
   min-inline-size: 375px;
   min-block-size: 100%; 
@@ -230,7 +236,7 @@
  position: absolute;
 }
 
-.text__content{
+.text__content {
   margin: 25px 25px 24px;
   display: flex;
   flex-direction: column;
@@ -347,7 +353,6 @@
   /* font-family: var(--accent__font-family);
   font-size: 14px;
   font-weight: 400; */
-  align-content: center;
 }
 
 .button {
