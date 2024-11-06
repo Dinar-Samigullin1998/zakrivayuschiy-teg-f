@@ -1,0 +1,1 @@
+https://github.com/Dinar-Samigullin1998/zakrivayuschiy-teg-f.git
