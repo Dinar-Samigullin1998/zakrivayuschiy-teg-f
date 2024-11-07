@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Закрывающий тег</title>
-    <meta name="color-scheme" content="dark light">
+    <meta name="color-scheme" content="light dark">
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
@@ -14,12 +14,15 @@
     <link rel="icon" href="./svg/favicon.ico" sizes="any" />
     <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="./images/favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.png" />
     <script src="./scripts/set-theme.js"></script>
   </head>
   <body class="page">
     <header class="header">
-      <h1 class="header__title">&lt;/HTML&gt;</h1>
-      <h2 class="header__text">закрывающий тег</h2>
+      <div class="header__logo">
+        <span class="header__title">&lt;/HTML&gt;</span>
+        <h1 class="header__text">закрывающий тег</h1>
+      </div>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -48,7 +51,7 @@
     </header>
     <main>
       <section class="content">
-        <h1 class="title__content">Фритрек и нулевой спринт: Подготовка к работе</h1>
+        <h2 class="title__content">Фритрек и нулевой спринт: Подготовка к работе</h2>
         <div class="container__img">
           <span class="img__lable">&lt;/HTML&gt;</span>
           <img class="img__content img__filter-contrast" src="./images/image.png" alt="Пиксельная иллюстрация грузовика с мороженым с эффектом контраста" loading="lazy">
@@ -74,7 +77,7 @@
         </div>
       </section>
       <section class="content">
-        <h1 class="title__content">1 спринт: Я — чистый лист</h1>
+        <h2 class="title__content">1 спринт: Я — чистый лист</h2>
         <div class="container__img">
           <span class="img__lable">&lt;/HTML&gt;</span>
           <img class="img__content img__filter-grayscale" src="./images/image.png" alt="Пиксельная иллюстрация грузовика с мороженым с черно-белом эффектом" loading="lazy">
@@ -100,7 +103,7 @@
         </div>
       </section>
       <section class="content">
-        <h1 class="title__content">1 спринт: А если не получится?</h1>
+        <h2 class="title__content">1 спринт: А если не получится?</h2>
         <div class="container__img">
           <span class="img__lable">&lt;/HTML&gt;</span>
           <img class="img__content img__filter-hue-rotate" src="./images/image.png" alt="Пиксельная иллюстрация грузовика с мороженым" loading="lazy">
@@ -126,7 +129,7 @@
         </div>
       </section>
       <section class="content">
-        <h1 class="title__content">2 спринт: Погоня за идеалом</h1>
+        <h2 class="title__content">2 спринт: Погоня за идеалом</h2>
         <div class="container__img">
           <span class="img__lable">&lt;/HTML&gt;</span>
           <img class="img__content img__filter-invert" src="./images/image.png" alt="Пиксельная иллюстрация грузовика с мороженым с  эффектом инвертирования" loading="lazy">
@@ -152,7 +155,7 @@
         </div>
       </section>
       <section class="content">
-        <h1 class="title__content">2 спринт: О тех, кто рядом</h1>
+        <h2 class="title__content">2 спринт: О тех, кто рядом</h2>
         <div class="container__img">
           <span class="img__lable">&lt;/HTML&gt;</span>
           <img class="img__content img__filter-saturate" src="./images/image.png" alt="Пиксельная иллюстрация грузовика с мороженым с фильтром насыщенния в 300%" loading="lazy">
@@ -178,7 +181,7 @@
         </div>
       </section>
       <section class="content">
-        <h1 class="title__content">3 спринт: Обходные стратегии</h1>
+        <h2 class="title__content">3 спринт: Обходные стратегии</h2>
         <div class="container__img">
           <span class="img__lable">&lt;/HTML&gt;</span>
           <img class="img__content img__filter-sepia" src="./images/image.png" alt="Пиксельная иллюстрация грузовика с мороженым с эффектом сепия" loading="lazy">
@@ -204,7 +207,7 @@
         </div>
       </section>
       <section class="content">
-        <h1 class="title__content">3 спринт: Когда опускаются руки</h1>
+        <h2 class="title__content">3 спринт: Когда опускаются руки</h2>
         <div class="container__img">
           <span class="img__lable">&lt;/HTML&gt;</span>
           <img class="img__content img__filter-blur" src="./images/image.png" alt="Пиксельная иллюстрация грузовика с мороженым с эффектом размытия" loading="lazy">
@@ -230,7 +233,7 @@
         </div>
       </section>
       <section class="content">
-        <h1 class="title__content">«Сейчас я здесь»</h1>
+        <h2 class="title__content">«Сейчас я здесь»</h2>
         <div class="container__img">
           <span class="img__lable">&lt;/HTML&gt;</span>
           <img class="img__content img__multiple-filret" src="./images/image.png" alt="Пиксельная иллюстрация грузовика с мороженым с мульти эффектом" loading="lazy">
@@ -270,8 +273,8 @@
           </svg>
           <span class="text__dialog">Вставьте дискету,&nbsp;чтобы продолжить</span>
         </div>
-        <button class="button dialog__save-button" type="submit" onclick="window['dialog-id'].close()">
-        <span class="button__text">OK</span>
+        <button class="button dialog__save-button" type="submit" onclick="window['dialog-id'].close()">  
+        <span class="button__text">ок</span>
         </button>
       </dialog>
     </main>

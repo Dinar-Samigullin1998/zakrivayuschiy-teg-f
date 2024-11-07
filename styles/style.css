@@ -39,11 +39,18 @@
   background-color: var(--background-color);
   border: var(--border);
   margin-block-end: 100px;
-  font-variation-settings: 'wght' var(--main__font-weight);
+}
+
+.header__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-block-start: 136px;
+  gap: 20px;
 }
 
 .header__title {
-  padding-block-start: 136px;
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
 }
 
@@ -56,7 +63,6 @@
 .header__text {
   text-transform: uppercase;
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem); 
-  padding-block-start: 20px;
 }
 
 .theme-menu__list {
@@ -64,7 +70,7 @@
   flex-direction: column;
   justify-content: start;
   gap: 14px;
-  padding-block: 25px;
+  margin-block: 25px;
   margin-inline-start: 18px;
   font-size: 14px;
 }
@@ -199,6 +205,7 @@
 
 .container__img .img__lable {
   position: absolute;
+  opacity: 0.5;
   color: var(--text-color);
   top: 25px;
   right: 25px;
@@ -229,10 +236,6 @@
   }
 }
 
-.content__decorated-icon {
- position: absolute;
-}
-
 .text__content {
   margin: 25px 25px 24px;
   display: flex;
@@ -245,7 +248,6 @@
   font-weight: var(--main__font-weight);
   font-size: 18px;
   line-height: 1.17em;
-  font-variation-settings: 'wght' var(--main__font-weight);
 }
 
 .card__like-button {
@@ -428,6 +430,7 @@
 .dialog__save-button {
   padding-block: 10px;
   inline-size: 289px;
+  text-transform: uppercase;
 }
 
 @media (width <= 375px) {
@@ -446,6 +449,5 @@
 }
 
 dialog::backdrop {
-  background-color: rgb(0 0 0 / 0.3);
-  backdrop-filter: blur(7px);
+  background-color: rgb(0 0 0 / 0.75);
 }

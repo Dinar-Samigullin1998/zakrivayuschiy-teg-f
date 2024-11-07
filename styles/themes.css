@@ -8,7 +8,7 @@
 
 :root.theme-light {
   --main__font-family: 'Inter', sans-serif;
-  --accent__font-family: 'Press Start 2P', sans-serif;
+  --accent__font-family: 'Press Start 2P', fantasy;
   --main__font-weight: 400;
   --title__font-weight: 700;
   --background-color: rgba(255, 255, 255, 1);
@@ -29,7 +29,7 @@
 
 :root.theme-dark {
   --main__font-family: 'Inter', sans-serif;
-  --accent__font-family: 'Press Start 2P', sans-serif;
+  --accent__font-family: 'Press Start 2P', fantasy;
   --main__font-weight: 465;
   --title__font-weight: 785;
   --background-color: rgba(0, 0, 0, 1);
@@ -49,9 +49,9 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    :root.theme-dark {
+    :root {
       --main__font-family: 'Inter', sans-serif;
-      --accent__font-family: 'Press Start 2P', sans-serif;
+      --accent__font-family: 'Press Start 2P', fantasy;
       --main__font-weight: 465;
       --title__font-weight: 785;
       --background-color: rgba(0, 0, 0, 1);
