@@ -55,7 +55,7 @@
 }
 
 @media (width <= 375px) {
-  .header__title {
+  .header__logo {
     padding-block-start: 120px;
   }
 }
@@ -149,8 +149,8 @@
 
 @media (width <= 375px) {
   .title__content {
-    padding: 3.5px 10px 5.5px;
-    line-height: 1.21em;
+    padding: 5px 10px 4px;
+    line-height: 1.2em;
   }
 }
 
@@ -405,6 +405,7 @@
 }
 
 .dialog:not([open])  {
+  display: none;
   opacity: 0;
   pointer-events: none;
 }
